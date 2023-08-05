@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Audi's Survey Form
+
+    </h1>
+
+    <p id="description">Turn uncertainty into confidence
+
+    </p>
+
+    <form id="survey-form">
+        
+        <fieldset id="1">
+        <label for="name-label" id="name-label">Name:
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+        </label>
+        <label for="email-label" id="email-label">Email:
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+        </label>
+        <label for="number-label" id="number-label">Age(Optional):
+            <input type="number" id="number" placeholder="Age" min="10" max="100">
+        </label>
+    </fieldset>
+
+    <fieldset id="2">
+        <label for="dropdown-label">Compromises? Not necessary:
+        <select name="dropdown" id="dropdown">
+            <option value="">Select Your Favorite Audi</option>
+            <option value="A1">A1</option>
+            <option value="A3">A3</option>
+            <option value="A4">A4</option>
+            <option value="A5">A5</option>
+            <option value="A6">A6</option>
+            <option value="A7">A7</option>
+            <option value="A8">A8</option>
+            <option value="Q2">Q2</option>
+            <option value="Q3">Q3</option>
+            <option value="Q5">Q5</option>
+            <option value="Q7">Q7</option>
+            <Option value="Q8">Q8</Option>
+            <option value="TT">TT</option>
+            <option value="R8">R8</option>
+        </select>
+        <label for="recommend">Would you recommend an audi to a friend?
+            <label for="name">
+            </label><input type="radio" name="value" class="inline" value="definitely">Definitely</label>
+            <label for="name">
+            </label><input type="radio" name="value" class="inline" value="maybe">Maybe</label>
+            <label for="name">
+            </label><input type="radio" name="value" class="inline" value="Not Sure">Not Sure</label>
+        </label>
+    </label> 
+    <label for="dropdown-label">What is your favorite feature about an Audi?:
+        <select name="feature" id="feature">
+            <option value="">Select Favorite Feature</option>
+            <option value="1">Sporty and fit for the whole family</option>
+            <option value="2">Designed to amaze and to drive</option>
+            <option value="3">Powerful dynamics</option>
+            <option value="4">Impressive even when stationary</option>
+            </select>
+    </label>
+    </fieldset>
+
+    <fieldset id="3">
+        <label>What would you like to see improved? (Check all that apply):
+        <label  id="change">
+        <input type="checkbox" name="value" class="inline" value="More Speed">More Speed
+        </label>
+        <label  id="change">
+            <input type="checkbox" name="value" class="inline" value="Autonomous Driving Technology">Autonomous Driving Technology
+            </label>
+            <label id="change">
+                <input type="checkbox" name="value" class="inline" value="Strengthening Presence in Emerging Markets">Strengthening Presence in Emerging Markets
+                </label>
+                <label id="change">
+                    <input type="checkbox" name="value" class="inline" value="Customization and Personalization">Customization and Personalization
+                </label>
+            </label>
+
+                <label for="comments" >Any comments or suggestions?
+                    <textarea name="comments" id="comments" rows="3" cols="30" placeholder="I love long drives..."></textarea>
+                   </label>    
+    </fieldset>
+    <input type="submit" value="Submit" id="submit">
+</form>
+ 
+</body>
+</html>
